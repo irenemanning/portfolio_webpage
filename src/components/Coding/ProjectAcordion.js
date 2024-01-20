@@ -27,12 +27,18 @@ function ProjectAcordion() {
                 <Accordion.Item eventKey="2">
                     <Accordion.Header>Cat Meme Creator</Accordion.Header>
                     <Accordion.Body>
+                        <h6>
+                        "Cat Meme Generator" is a whimsical web app enabling users to create, view, edit, delete, and like cat memes, with dynamic content management via a JSON database.
+                        </h6>
                         <Button variant="link" href="https://cat-memes-by-irene.netlify.app/">Cat Meme Creator</Button>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
                     <Accordion.Header>Poke Collector</Accordion.Header>
                     <Accordion.Body>
+                        <h6>
+                        "Poke Collector": JavaScript web app using a Pokemon API for browsing and collecting, with enhanced user experience through event listeners and animations.
+                        </h6>
                     <Button variant="link" href="https://poke-liker.netlify.app/">Poke Project</Button>
                     </Accordion.Body>
                 </Accordion.Item>

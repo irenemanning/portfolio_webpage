@@ -5,9 +5,11 @@ import ProjectAcordion from "../components/Coding/ProjectAcordion"
 function Home() {
     return (
         <div className="home">
-            <div>
+            <div className="home-title">
                 <img className="home-photo" src="portrait1.jpg" alt=""/>
-                <h1 className="title">Irene Manning</h1>
+                <div className="text-overlay">
+                    <h1 className="title">Irene Manning</h1>
+                </div>
             </div>
             
             <div className="resume-obj">
