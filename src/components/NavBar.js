@@ -8,7 +8,7 @@ function NavBar() {
            <Navbar fixed="top" expand={false} className="bg-body-tertiary mb-3">
            <Container fluid>
             <Navbar.Brand href="/">IM</Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'sm'}`} />
+            {/* <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'sm'}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${'sm'}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${'sm'}`}
@@ -21,9 +21,9 @@ function NavBar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  {/* <Nav.Link href="/">Home</Nav.Link> */}
+                  <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/coding">Coding</Nav.Link>
-                  {/* <NavDropdown
+                  <NavDropdown 
                     title="Arts "
                     id={`offcanvasNavbarDropdown-expand-${'sm'}`}
                   >
@@ -32,14 +32,14 @@ function NavBar() {
                     <NavDropdown.Item as={Link} to="/fiber">Fiber</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">Something else</NavDropdown.Item>
-                  </NavDropdown> */}
+                  </NavDropdown>
                   <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
-                {/* <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/contact">Contact</Nav.Link>
-                </Nav> */}
+                </Nav>
               </Offcanvas.Body>
-            </Navbar.Offcanvas>
+            </Navbar.Offcanvas> */}
           </Container>
           </Navbar>
         </div>
