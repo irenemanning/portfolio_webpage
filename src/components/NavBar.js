@@ -8,7 +8,7 @@ function NavBar() {
            <Navbar fixed="top" expand={false} className="bg-body-tertiary mb-3">
            <Container fluid>
             <Navbar.Brand href="/">IM</Navbar.Brand>
-            {/* <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'sm'}`} />
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'sm'}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${'sm'}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${'sm'}`}
@@ -39,7 +39,7 @@ function NavBar() {
                   <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
-            </Navbar.Offcanvas> */}
+            </Navbar.Offcanvas>
           </Container>
           </Navbar>
         </div>
