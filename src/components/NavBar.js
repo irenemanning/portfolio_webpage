@@ -5,9 +5,13 @@ import { Nav, Navbar, Container, NavDropdown, Offcanvas } from "react-bootstrap"
 function NavBar() {
     return (
         <div className="navbar">
-           <Navbar fixed="top" expand={false} className="bg-body-tertiary mb-3">
+           <Navbar fixed="top" expand={'sm'} className="bg-body-tertiary mb-3">
            <Container fluid>
-            <Navbar.Brand href="/">IM</Navbar.Brand>
+            <Navbar.Brand href="/">
+            <img src="/iicon.png" alt="Logo"
+                    style={{height: "60px", width: "60px", marginRight: "20px"}}
+            />
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'sm'}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${'sm'}`}
@@ -23,7 +27,7 @@ function NavBar() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/coding">Coding</Nav.Link>
-                  <NavDropdown 
+                  {/* <NavDropdown 
                     title="Arts "
                     id={`offcanvasNavbarDropdown-expand-${'sm'}`}
                   >
@@ -32,12 +36,12 @@ function NavBar() {
                     <NavDropdown.Item as={Link} to="/fiber">Fiber</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">Something else</NavDropdown.Item>
-                  </NavDropdown>
+                  </NavDropdown> */}
                   <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+                {/* <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/contact">Contact</Nav.Link>
-                </Nav>
+                </Nav> */}
               </Offcanvas.Body>
             </Navbar.Offcanvas>
           </Container>
