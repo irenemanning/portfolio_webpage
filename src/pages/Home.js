@@ -1,6 +1,4 @@
 import React from "react";
-// import SkillList from "../components/Coding/SkillList"
-// import ProjectAcordion from "../components/Coding/ProjectAcordion"
 
 function Home() {
     return (
@@ -17,8 +15,6 @@ function Home() {
                 Driven by a passion for front-end development and design, I am a self-taught software engineer seeking opportunities to apply my skills and unleash creativity. I combine technical expertise with an artistic flair to craft visually engaging and functional applications.
                 </small>    
             </div>
-            {/* <SkillList />
-            <ProjectAcordion /> */}
         </div>
     )
 }
