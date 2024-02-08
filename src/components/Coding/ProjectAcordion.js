@@ -8,7 +8,7 @@ function ProjectAcordion() {
     }
     return (
         <div className="project-accordion">
-            <Accordion flush  className="w-100">
+            <Accordion flush  className="w-100 custom-accordion">
                 <h1>PROJECTS BY IRENE</h1>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Gossip Grl</Accordion.Header>

@@ -12,7 +12,7 @@ function Home() {
             
             <div className="resume-obj">
                 <small>
-                Driven by a passion for front-end development and design, I am a self-taught software engineer seeking opportunities to apply my skills and unleash creativity. I combine technical expertise with an artistic flair to craft visually engaging and functional applications.
+                Driven by a passion for front-end development and design, I am a software engineer seeking opportunities to apply my skills and unleash creativity. I combine technical expertise with an artistic flair to craft visually engaging and functional applications.
                 </small>    
             </div>
         </div>

@@ -4,6 +4,7 @@
   
   .App-header {
     background-color: #ffffff;
+    /* background-color: #003030; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,7 +18,7 @@
     margin: 0;
   }
   .custom-navbar {
-    background-color: rgb(117, 235, 27);
+    background-color: #75EB1B;
   }
  
   .home {
@@ -42,7 +43,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: rgb(117, 235, 27); 
+    color: #75EB1B; 
     /* color: #ffffff; */
     opacity: 83%;
   }
@@ -51,9 +52,11 @@
     font-weight: bold;
   }
   .resume-obj {
+    color: #75EB1B; 
     margin: 5%;
     margin-right: 20%;
     margin-left: 20%;
+    /* background-color: #003030; */
   }
 
   .coding-page {
@@ -67,6 +70,31 @@
     margin-right: 15%;
     margin-left: 15%;
   }
+  /* OVERRIDE ACCORDION CSS */
+  .custom-accordion {
+  background-color: #ffffff; 
+  }
+
+  .custom-accordion .accordion-button {
+    color: #000000; 
+    background-color: #ffffff; 
+    border: 5px solid; 
+  }
+
+  .custom-accordion .accordion-button:hover {
+    background-color: #C7EBAB; 
+  }
+
+  .custom-accordion .accordion-button:not(.collapsed) {
+    background-color: #C7EBAB; 
+  }
+
+  .custom-accordion .accordion-collapse {
+    background-color: #ffffff; 
+    border: 5px solid; 
+    border-top: 0;
+  }
+  /* OVVERRIDE ACCORDION CSS */
   .skill-list {
     display: flex;
     justify-content: center;
