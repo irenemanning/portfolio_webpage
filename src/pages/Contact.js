@@ -1,11 +1,14 @@
 import React from "react";
 import {Form, Button} from 'react-bootstrap';
-
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Contact() {
     return (
         <div>
-            <h1>Contact Irene</h1>
+            <h1>Contact and Connect with Irene</h1>
+            <Button variant="dark" onClick={()=>}>GitHub <FaGithub /></Button>
+            <Button variant="dark" onClick={()=>}>Linked In <FaLinkedin /></Button>
+            
             <Form>
                 <Form.Group className="mb-3" controlId="emailInput">
                     <Form.Label>Email address</Form.Label>
