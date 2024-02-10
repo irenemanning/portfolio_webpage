@@ -52,7 +52,8 @@
     font-weight: bold;
   }
   .resume-obj {
-    color: #75EB1B; 
+    color:#000000;
+    /* color: #75EB1B;  */
     margin: 5%;
     margin-right: 20%;
     margin-left: 20%;
