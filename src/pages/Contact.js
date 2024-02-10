@@ -17,18 +17,21 @@ function Contact() {
             <div className="connect">
                 <h1>Connect with Irene</h1>
                 <Button 
+                className="mb-3"
                 variant="dark" 
                 onClick={()=>OpenInNewTab("https://github.com/irenemanning")}
                 >
                 GitHub <FaGithub />
                 </Button>
                 <Button 
+                className="mb-3"
                 variant="dark" 
                 onClick={()=>OpenInNewTab("http://www.linkedin.com/in/Irene-manning")}
                 >
                 Linked In <FaLinkedin />
                 </Button>
                 <Button 
+                className="mb-3"
                 variant="dark" 
                 onClick={()=>OpenInNewTab("https://medium.com/@irenemanning")}
                 >

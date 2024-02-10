@@ -2,7 +2,7 @@
     text-align: center;
   }
   
-  .App-header {
+.App-header {
     background-color: #ffffff;
     /* background-color: #003030; */
     min-height: 100vh;
@@ -12,32 +12,34 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: rgb(0, 0, 0);
-  }
+}
 
-  .navbar {
+button {
+    margin: 1%; 
+}
+.navbar {
     margin: 0;
-  }
-  .custom-navbar {
+}
+.custom-navbar {
     background-color: #75EB1B;
-  }
+}
  
-  .home {
+.home {
     margin: auto;
     margin-top: 60px;
-
-  }
-  .home-title {
+}
+.home-title {
     position: relative;
     width: 100%;
     max-width: 900px; 
     margin: auto;
-  }
-  .home-photo {
+}
+.home-photo {
     width: 100%;
     height: auto;
     display: block;
-  }
-  .text-overlay {
+}
+.text-overlay {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,59 +48,61 @@
     color: #75EB1B; 
     /* color: #ffffff; */
     opacity: 83%;
-  }
-  .title {
+}
+.title {
     font-size: 12vw;
     font-weight: bold;
-  }
-  .resume-obj {
+}
+.resume-obj {
     color:#000000;
     /* color: #75EB1B;  */
     margin: 5%;
     margin-right: 20%;
     margin-left: 20%;
     /* background-color: #003030; */
-  }
+}
 
-  .coding-page {
+.coding-page {
     /* margin-top: 60px; */
     margin-right: 20%;
     margin-left: 20%;
     width: 70%;
-  }
-  .project-accordion {
+}
+.project-accordion {
     margin: 5%;
     margin-right: 15%;
     margin-left: 15%;
-  }
+}
   /* OVERRIDE ACCORDION CSS */
-  .custom-accordion {
-  background-color: #ffffff; 
-  }
+.custom-accordion {
+    background-color: #ffffff; 
+}
 
-  .custom-accordion .accordion-button {
+.custom-accordion .accordion-button {
     color: #000000; 
     background-color: #ffffff; 
     border: 5px solid; 
-  }
+}
 
-  .custom-accordion .accordion-button:hover {
+.custom-accordion .accordion-button:hover {
     background-color: #C7EBAB; 
-  }
+}
 
-  .custom-accordion .accordion-button:not(.collapsed) {
+.custom-accordion .accordion-button:not(.collapsed) {
     background-color: #C7EBAB; 
-  }
+}
 
-  .custom-accordion .accordion-collapse {
+.custom-accordion .accordion-collapse {
     background-color: #ffffff; 
     border: 5px solid; 
     border-top: 0;
-  }
+}
   /* OVVERRIDE ACCORDION CSS */
-  .skill-list {
+.skill-list {
     display: flex;
     justify-content: center;
     margin-top: 0; 
     margin-bottom: 0; 
-  }
+}
+
+
