@@ -76,26 +76,29 @@ button {
   /* OVERRIDE ACCORDION CSS */
 .custom-accordion {
     background-color: #ffffff; 
+    justify-content: center;
 }
 
 .custom-accordion .accordion-button {
     color: #000000; 
     background-color: #ffffff; 
-    border: 5px solid; 
+    border: 5px solid black; 
+    margin: 0;
 }
 
 .custom-accordion .accordion-button:hover {
-    background-color: #C7EBAB; 
+    background: linear-gradient(270deg, #75EB1B 0%, #B8FF81 100%);
 }
 
 .custom-accordion .accordion-button:not(.collapsed) {
-    background-color: #C7EBAB; 
+    background: linear-gradient(270deg, #75EB1B 0%, #B8FF81 100%);
 }
 
 .custom-accordion .accordion-collapse {
     background-color: #ffffff; 
-    border: 5px solid; 
+    border: 5px solid black; 
     border-top: 0;
+    margin: 0;
 }
   /* OVVERRIDE ACCORDION CSS */
 .skill-list {
