@@ -6,7 +6,7 @@ function NavBar() {
     return (
       <Navbar fixed="top" expand={'sm'} className="custom-navbar mb-3" style={{color: "#75EB1B"}}>
         <Container fluid>
-        <Navbar.Brand href="/">
+        <Navbar.Brand as={Link} to="/">
         <img src="/iicon.png" alt="Logo"
                 style={{height: "50px", width: "50px", marginRight: "20px"}}
         />
@@ -24,8 +24,8 @@ function NavBar() {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/coding">Coding</Nav.Link>
+              <Nav.Link as={Link} to="/">Home</Nav.Link>
+              <Nav.Link as={Link} to="/coding">Coding</Nav.Link>
               {/* <NavDropdown 
                 title="Arts "
                 id={`offcanvasNavbarDropdown-expand-${'sm'}`}
@@ -36,7 +36,7 @@ function NavBar() {
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action5">Something else</NavDropdown.Item>
               </NavDropdown> */}
-              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>
             {/* <Nav className="justify-content-end flex-grow-1 pe-3">
               <Nav.Link href="/contact">Contact</Nav.Link>
