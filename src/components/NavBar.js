@@ -36,7 +36,9 @@ function NavBar() {
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action5">Something else</NavDropdown.Item>
               </NavDropdown> */}
-              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/connect">Connect</Nav.Link>
+              {/* uncomment the contact link when you start working on a email submission form */}
+              {/* <Nav.Link as={Link} to="/contact">Contact</Nav.Link> */}
             </Nav>
             {/* <Nav className="justify-content-end flex-grow-1 pe-3">
               <Nav.Link href="/contact">Contact</Nav.Link>

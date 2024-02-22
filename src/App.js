@@ -24,7 +24,8 @@ function App() {
             <Route path="/modeling" element={<Modeling />} />
             <Route path="/painting" element={<Painting />} />
             <Route path="/fiber" element={<Fiber />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/connect" element={<Contact />} />
+            {/* <Route path="/contact" element={<Contact />} /> */}
           </Routes>
         </Router>
       </header>

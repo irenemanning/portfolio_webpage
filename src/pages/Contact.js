@@ -16,6 +16,7 @@ function Contact() {
         <div>
             <div className="connect">
                 <h1>Connect with Irene</h1>
+                <br/>
                 <Button 
                 className="mb-3"
                 variant="dark" 
@@ -39,7 +40,7 @@ function Contact() {
                 </Button>
             </div>
 
-            <Form onSubmit={handleSubmit}>
+            {/* <Form onSubmit={handleSubmit}>
                 <h1>Contact</h1>
                 <Form.Group className="mb-3" controlId="emailInput">
                     <Form.Label>Email address</Form.Label>
@@ -60,7 +61,7 @@ function Contact() {
                     />
                 </Form.Group>
                 <Button type="submit" variant="dark">Submit</Button>{''}
-            </Form>
+            </Form> */}
         </div>
     )
 }
